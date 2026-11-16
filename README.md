@@ -1,6 +1,8 @@
 # Corkscrews Homebrew tap
 
 ```bash
+brew tap corkscrews/tap
+brew trust corkscrews/tap  # Homebrew only loads casks from taps you trust
 brew install --cask corkscrews/tap/fruit-screensaver
 ```
 
